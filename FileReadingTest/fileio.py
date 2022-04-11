@@ -1,4 +1,4 @@
-readPath = "C:\\Users\\p_tri\\Desktop\\Python\\FileReadingTest\\Latin-Lipsum.txt"
+readPath = <FILE_PATH_HERE>
 # read a file
 # 'r' opens file in read-only option
 with open(readPath, 'r') as rfile:
@@ -6,7 +6,7 @@ with open(readPath, 'r') as rfile:
 
 text = text.split(" ")
 
-writePath = "C:\\Users\\p_tri\\Desktop\\Python\\FileReadingTest\\Write-Output-Test.txt"
+writePath = <FILE_PATH_HERE>
 # write to a file
 # 'w' open file in write-only option
 # write-only option will overwrite the file (if the file exists)
